@@ -11,3 +11,5 @@ now ....first I used fetch and merge & now I am using PULL command which is the 
 now this modification will be made from local to remote branch
 <br>
 by using the push command on git
+<br> 
+will push branch to github 
