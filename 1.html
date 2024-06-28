@@ -8,11 +8,13 @@
     <style>
         body {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
             background-color: #f0f8ff; /* Light blue background */
+            font-family: Arial, sans-serif;
         }
     </style>
 </head>
@@ -21,12 +23,15 @@
         <div class="shape circle">Circle</div>
         <div class="shape square">Square</div>
         <div class="shape rectangle">Rectangle</div>
-        <div class="shape triangle"></div>
-        <div class="shape ellipse">Ellipse</div>
     </div>
 
     <img src="pic.jpg" alt="Picture" class="centered-image">
 
-    <script src="bluescript.js"></script> <!-- If you have any JavaScript -->
+    <div class="shapes-container">
+        <div class="shape triangle"></div>
+        <div class="shape ellipse">Ellipse</div>
+    </div>
+
+    <img src="download.jpg" alt="Picture" class="centered-image">
 </body>
 </html>
