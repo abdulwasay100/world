@@ -1,4 +1,21 @@
-/* CSS for shapes */
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles for layout and background */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff; /* Light blue background */
+    font-family: Arial, sans-serif;
+}
+
+/* Container for shapes and image */
 .shapes-container {
     display: flex;
     flex-wrap: wrap;
@@ -7,6 +24,7 @@
     margin-top: 20px;
 }
 
+/* Styles for shapes */
 .shape {
     display: flex;
     justify-content: center;
@@ -19,19 +37,19 @@
     width: 100px;
     height: 100px;
     margin: 10px;
-}
-
-.circle {
-    background-color: blue;
     border-radius: 50%;
 }
 
+.circle {
+    background-color: #3498db; /* Blue */
+}
+
 .square {
-    background-color: green;
+    background-color: #27ae60; /* Green */
 }
 
 .rectangle {
-    background-color: red;
+    background-color: #e74c3c; /* Red */
 }
 
 .triangle {
@@ -39,15 +57,15 @@
     height: 0;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
-    border-bottom: 100px solid yellow;
+    border-bottom: 100px solid #f39c12; /* Orange */
 }
 
 .ellipse {
-    background-color: purple;
+    background-color: #9b59b6; /* Purple */
     border-radius: 50% / 25%;
 }
 
-/* CSS for centered image */
+/* Styles for centered image */
 .centered-image {
     display: block;
     margin: auto;
